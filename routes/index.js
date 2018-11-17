@@ -20,5 +20,8 @@ api.get('/wordpress', (req, res)=>{
 api.get('/moodle', (req, res)=>{
 	res.render('moodle');
 });
+api.get('/acerca_de', (req, res)=>{
+	res.render('acerca_de');
+});
 
 module.exports= api
