@@ -23,5 +23,7 @@ api.get('/moodle', (req, res)=>{
 api.get('/acerca_de', (req, res)=>{
 	res.render('acerca_de');
 });
-
+api.get('/portafolio', (req, res)=>{
+	res.render('portafolio');
+});
 module.exports= api
